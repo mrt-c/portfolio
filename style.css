@@ -4,7 +4,9 @@
 }
 /*header start*/
 header {
-background-image:;
+background-image:url(/img/bg.png);
+height: 910px;
+
 }
 .logo {
   height: 50px;
@@ -14,7 +16,10 @@ nav {
   display: flex;
   justify-content: space-between;
   color: #ffffff;
-  margin: 20px;
+  height: 90px;
+  align-items: center;
+  margin: 0 20px;
+  font-size: 20px;
 }
 .navWrapper {
   display: flex;
@@ -22,4 +27,66 @@ nav {
   width: 570px;
   height: 50px;
 }
-/*header end*/
+.hero{
+  color: white;
+  height: 330px;
+  width: 500px;
+  margin: 160px 80px;
+}
+.heroTitle{
+  height: 120px;
+  font-size: 60px;
+}
+.heroText{
+  height: 120px;
+  width: 470px;
+  font-size: 20px;
+}
+.hireMe{
+  height: 55px;
+  width: 220px;
+  background-color: #BDAE82;
+}
+/*header end
+main start*/
+.skills{
+  background-color: black;
+}
+.sectionTitleLine{
+  height: 2px;
+  width: 274px;
+  background-color: #BDAE82;
+}
+.skillsTitle{
+margin: 20px;
+  color: #BDAE82;
+}
+.sectionTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+.skillsItems{
+display: flex;
+justify-content: center;
+}
+.skillsItem{
+  width: 320px;
+  height: 240px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skillsItemsTitle{
+  color:#BDAE82;
+  font-size: 20px;
+}
+.skillsItemsText{
+  color: #BDAE82;
+  font-size: 18px;
+}
+.skillsImg{
+  height: 50px;
+}
