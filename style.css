@@ -26,6 +26,22 @@ nav {
   justify-content: space-around;
   width: 570px;
   height: 50px;
+  margin-top:20px ;
+}
+.translateWrapper{
+  display: flex;
+  text-decoration: none;
+  color: #ffffff;
+}
+.translateOn{
+  color: #BDAE82;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.translateOff{
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
 }
 .hero{
   color: white;
@@ -35,23 +51,26 @@ nav {
 }
 .heroTitle{
   height: 120px;
-  font-size: 60px;
+  font-size: 67px;
+  margin-top: 180px;
 }
 .heroText{
   height: 120px;
   width: 470px;
-  font-size: 20px;
+  font-size: 23px;
+  line-height: 35px
 }
 .hireMe{
   height: 55px;
   width: 220px;
   background-color: #BDAE82;
+  margin-top: 10px;
 }
-/*header end
-main start*/
-.skills{
-  background-color: black;
+/*header end*/
+main{
+background-color: black;
 }
+/*skills start*/
 .sectionTitleLine{
   height: 2px;
   width: 274px;
@@ -60,16 +79,20 @@ main start*/
 .skillsTitle{
 margin: 20px;
   color: #BDAE82;
+  font-size: 47px;
 }
 .sectionTitle{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80px;
+  position: relative;
+  top: 100px;
 }
 .skillsItems{
 display: flex;
 justify-content: center;
+margin-top: 140px;
 }
 .skillsItem{
   width: 320px;
@@ -78,15 +101,42 @@ justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 .skillsItemsTitle{
   color:#BDAE82;
-  font-size: 20px;
+  font-size: 23px;
+  margin: 55px 0 30px;
 }
 .skillsItemsText{
   color: #BDAE82;
-  font-size: 18px;
+  font-size: 22px;
+  line-height: 35px;
+  
 }
 .skillsImg{
   height: 50px;
+}
+/*skills end
+portfolio start*/
+.portfolio{
+  background-color:black;
+  height: 1500px;
+  
+}
+.titleWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.portfolioTitle{
+  color: #BDAE82;
+  margin: 0 20px;
+  font-size: 40px;
+}
+.portfolioTitleLine{
+  width: 240px;
+  height: 2px;
+  background-color: #BDAE82;
 }
