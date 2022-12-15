@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none;
+}
 /*header start*/
 header {
 background-image:url(/img/bg.png);
@@ -71,6 +74,9 @@ main{
 background-color: black;
 }
 /*skills start*/
+.skills{
+  height: 480px;
+}
 .sectionTitleLine{
   height: 2px;
   width: 274px;
@@ -128,15 +134,95 @@ portfolio start*/
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 115px;
 }
 .portfolioTitle{
   color: #BDAE82;
   margin: 0 20px;
-  font-size: 40px;
+  font-size: 47px;
 }
 .portfolioTitleLine{
   width: 240px;
+  height: 2px;
+  background-color: #BDAE82;
+}
+.portfoliobtns{
+  margin-top: 72px;
+  width: 1440px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+}
+.btnWrapper{
+  width: 216px;
+  height: 51px;
+  color: #BDAE82;
+  border: 3px solid #BDAE82;
+  margin: 0 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+.btn{
+  font-size: 24px;
+  color: #BDAE82;
+}
+.btnActiv{
+  background-color: #BDAE82;
+  color: black;
+}
+.portfolioImgWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 47.5px;
+}
+.portfolioImg{
+width: 450px;
+height: 560px;
+margin: 12.5px;
+}
+/*portfolio end
+video start*/
+.video{
+  height: 945px;
+}
+.videoTitleWrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.videoTitle{
+color: #BDAE82;
+font-size: 47px;
+margin: 0 20px;
+}
+.videoTitleLine{
+  width: 271px;
+  height: 2px;
+  background-color: #BDAE82;
+}
+.videoPlayer{
+  margin: 72px 20px;
+}
+/*video end
+price start*/
+.price{
+  height: 845px;
+}
+.priceTitleWrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.priceTitle{
+color: #BDAE82;
+font-size: 47px;
+margin: 0 20px;
+}
+.priceTitleLine{
+  width: 279px;
   height: 2px;
   background-color: #BDAE82;
 }
