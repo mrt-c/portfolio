@@ -12,11 +12,11 @@
       <nav>
         <img src="/img/logo.svg" alt="logo" class="logo" />
         <div class="navWrapper">
-          <p>Skills</p>
-          <p>Portfolio</p>
-          <p>Video</p>
-          <p>Price</p>
-          <p>Contacts</p>
+          <a href="" class="navigation">Skills</a>
+          <a href="" class="navigation">Portfolio</a>
+          <a href="" class="navigation">Video</a>
+          <a href="" class="navigation">Price</a>
+          <a href="" class="navigation">Contacts</a>
           <div class="translateWrapper">
             <a href="" class="translateOn">en</a>
             <p>/</p>
@@ -30,7 +30,7 @@
           Save sincere emotions, romantic feelings and happy moments of life
           together with professional photographer Alexa Rise
         </p>
-        <input type="button" value="HireMe" class="hireMe" />
+        <button class="hireMe" >Hire me</button>
       </div>
     </header>
     <main>
@@ -83,15 +83,17 @@
           <div class="btnWrapper"><a href="" class="btn">Winter</a></div>
           <div class="btnWrapper"><a href="" class="btn">Spring</a></div>
           <div class="btnWrapper"><a href="" class="btn">Summer</a></div>
-          <div class="btnWrapper btnActiv"><a href="" class="btn btnActiv">Autumn</a></div>
+          <div class="btnWrapper btnActiv">
+            <a href="" class="btn btnActiv">Autumn</a>
+          </div>
         </div>
         <div class="portfolioImgWrapper">
-          <img src="/img/portfolio-img.png" class="portfolioImg" alt="">
-          <img src="/img/portfolio-img(1).png" class="portfolioImg" alt="">
-          <img src="/img/portfolio-img(2).png" class="portfolioImg" alt="">
-          <img src="/img/portfolio-img(3).png" class="portfolioImg" alt="">
-          <img src="/img/portfolio-img(4).png" class="portfolioImg" alt="">
-          <img src="/img/portfolio-img(5).png" class="portfolioImg" alt="">
+          <img src="/img/portfolio-img.png" class="portfolioImg" alt="" />
+          <img src="/img/portfolio-img(1).png" class="portfolioImg" alt="" />
+          <img src="/img/portfolio-img(2).png" class="portfolioImg" alt="" />
+          <img src="/img/portfolio-img(3).png" class="portfolioImg" alt="" />
+          <img src="/img/portfolio-img(4).png" class="portfolioImg" alt="" />
+          <img src="/img/portfolio-img(5).png" class="portfolioImg" alt="" />
         </div>
       </div>
       <!--portfolio end
@@ -102,35 +104,64 @@
           <h2 class="videoTitle">Video</h2>
           <div class="videoTitleLine"></div>
         </div>
-        <img src="/img/video-player.png" class="videoPlayer" alt="">
+        <img src="/img/video-player.png" class="videoPlayer" alt="" />
       </div>
       <!--video end
         price start-->
-        <div class="price">
+      <div class="price">
         <div class="priceTitleWrapper">
           <div class="priceTitleLine"></div>
-          <H2 class="priceTitle">Price</H2>
+          <h2 class="priceTitle">Price</h2>
           <div class="priceTitleLine"></div>
         </div>
         <div class="priceItemWrapper">
           <div class="priceItem">
-            <h2 class="priceItemTitle"></h2>
-            <h2 class="priceItemPrice"></h2>
+            <h2 class="priceItemTitle">Standard</h2>
+            <h2 class="priceItemPrice">500 $</h2>
             <div class="priceItemFrameWrapper">
-              <p class="priceItemFrame"></p>
-              <p class="priceItemFrame"></p>
-              <p class="priceItemFrame"></p>
-              <p class="priceItemFrame"></p>
-              <p class="priceItemFrame"></p>
+              <p class="priceItemFrame">One location</p>
+              <p class="priceItemFrame">120 photos in color</p>
+              <p class="priceItemFrame">12 photos in retouch</p>
+              <p class="priceItemFrame">Readiness 2-3 weeks</p>
+              <p class="priceItemFrame">Make up, visage</p>
             </div>
-            <button></button>
+            <button class="priceItemButton">Order shooting</button>
           </div>
           <div class="priceItem">
-
+            <h2 class="priceItemTitle">Premium</h2>
+            <h2 class="priceItemPrice">700 $</h2>
+            <div class="priceItemFrameWrapper">
+              <p class="priceItemFrame">One or two locations</p>
+              <p class="priceItemFrame">200 photos in color</p>
+              <p class="priceItemFrame">20 photos in retouch</p>
+              <p class="priceItemFrame">Readlines 1-2weeks</p>
+              <p class="priceItemFrame">Make up, visage</p>
+            </div>
+            <button class="priceItemButton">Order shooting</button>
           </div>
           <div class="priceItem">
-
+            <h2 class="priceItemTitle">Gold</h2>
+            <h2 class="priceItemPrice">1000 $</h2>
+            <div class="priceItemFrameWrapper">
+              <p class="priceItemFrame">Three locations or more</p>
+              <p class="priceItemFrame">300 photos in color</p>
+              <p class="priceItemFrame">50 photos in retouch</p>
+              <p class="priceItemFrame">Readlines 1 week</p>
+              <p class="priceItemFrame">Make up, visage, hairstyle</p>
+            </div>
+            <button class="priceItemButton">Order shooting</button>
           </div>
+        </div>
+      </div>
+      <!--price end
+      contacts start-->
+      <div class="contacts">
+        <div class="contactsContainer">
+          <h2>Contact me</h2>
+          <input type="text" class="E-mail aboutYou">
+          <input type="text" class="Phone aboutYou">
+          <input type="text" class="message aboutYou">
+          <button class="sendMessage">Send message</button>
         </div>
       </div>
     </main>

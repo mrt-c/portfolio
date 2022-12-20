@@ -6,6 +6,7 @@ a{
   text-decoration: none;
 }
 /*header start*/
+
 header {
 background-image:url(/img/bg.png);
 height: 910px;
@@ -30,6 +31,13 @@ nav {
   width: 570px;
   height: 50px;
   margin-top:20px ;
+}
+.navigation{
+  color: #ffffff;
+  text-decoration: none;
+}
+.navigation:hover{
+color: #BDAE82;
 }
 .translateWrapper{
   display: flex;
@@ -163,6 +171,10 @@ portfolio start*/
   justify-content: center;
   align-items: center;  
 }
+.btnWrapper:hover{
+  background-color: #BDAE82;
+  cursor: pointer;
+}
 .btn{
   font-size: 24px;
   color: #BDAE82;
@@ -181,7 +193,7 @@ portfolio start*/
 .portfolioImg{
 width: 450px;
 height: 560px;
-margin: 12.5px;
+margin: 12px;
 }
 /*portfolio end
 video start*/
@@ -225,4 +237,64 @@ margin: 0 20px;
   width: 279px;
   height: 2px;
   background-color: #BDAE82;
+}
+.priceItemWrapper{
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+}
+.priceItem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 505px;
+  width: 450px;
+  margin: 20px;
+  border: 3px #BDAE82 solid;
+  color: #ffffff;
+}
+.priceItemTitle{
+  margin-top: 43px;
+  font-size: 35px;
+}
+.priceItemPrice{
+  margin-top:40px;
+  font-size: 30px;
+  color: #BDAE82;
+}
+.priceItemFrameWrapper{
+  margin-top:20px ;
+  text-align: center;
+}
+.priceItemFrame{
+  margin-top: 10px;
+  font-size: 22px;
+}
+.priceItemButton{
+  height: 55px;
+  width: 220px;
+  background-color: #BDAE82;
+  margin-top: 45px;
+}
+button:hover{
+  background-color: #948865;
+  cursor: pointer;
+}
+/*price end
+contacts start*/
+.contacts{
+  background-image: url(/img/contacts.jpg);
+  height: 700px;
+}
+.contactsContainer{
+  display: flex;
+  flex-direction: column;
+  color: #BDAE82;
+}
+.aboutYou{
+  width: 450px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: #BDAE82 2px solid;
+  margin: 10px;
 }
