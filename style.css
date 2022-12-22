@@ -333,3 +333,21 @@ contacts start*/
   margin-top: 20px;
   font-size: 20px
 }
+/*contact end
+footer start*/
+footer{
+  height: 150px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.socialData{
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 22px;
+}
+.githubLink{
+  color: #ffffff;
+}
