@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+body{
+  width: 1440px;
+  margin: 0 auto;
+}
 a{
   text-decoration: none;
 }
@@ -95,18 +99,22 @@ margin: 20px;
   color: #BDAE82;
   font-size: 47px;
 }
-.sectionTitle{
+.sectionTitleWrapper{
+  display: flex;
+justify-content: center;
+height: 180px;
+align-items: flex-end;
+}
+.sectionTitleSkills{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80px;
-  position: relative;
-  top: 100px;
 }
 .skillsItems{
 display: flex;
 justify-content: center;
-margin-top: 140px;
+margin-top: 40px;
 }
 .skillsItem{
   width: 320px;
@@ -134,11 +142,13 @@ margin-top: 140px;
 /*skills end
 portfolio start*/
 .portfolio{
-  background-color:black;
   height: 1500px;
   
 }
-.titleWrapper{
+.sectionTitleWrapper{
+
+}
+.sectionTitle{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,8 +165,7 @@ portfolio start*/
   background-color: #BDAE82;
 }
 .portfoliobtns{
-  margin-top: 72px;
-  width: 1440px;
+  margin-top: 60px;
   height: 55px;
   display: flex;
   justify-content: center;
@@ -285,16 +294,42 @@ contacts start*/
 .contacts{
   background-image: url(/img/contacts.jpg);
   height: 700px;
+  display: flex;
+  justify-content: flex-end;
 }
 .contactsContainer{
   display: flex;
   flex-direction: column;
   color: #BDAE82;
+  margin-top: 75px;
+    font-size: 30px;
 }
 .aboutYou{
   width: 450px;
-  height: 50px;
   background-color: rgba(0, 0, 0, 0.5);
   border: #BDAE82 2px solid;
-  margin: 10px;
+  margin-right: 18px;
+  color: #BDAE82;
+}
+.aboutYou::placeholder{
+  color: #BDAE82;
+  font-size: 20px;
+}
+.e-mailAboutYou{
+  height: 50px;
+  margin-top: 50px;
+}
+.phoneAboutYou{
+  height: 50px;
+  margin: 20px 0;
+}
+.messageAboutYou{
+  height: 100px;
+}
+.sendMessage{
+  height: 55px;
+  width: 220px;
+  background-color: #BDAE82;
+  margin-top: 20px;
+  font-size: 20px
 }
