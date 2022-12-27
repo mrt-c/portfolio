@@ -6,17 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav>
-        <img src="/img/logo.svg" alt="logo" class="logo" />
+        <a href=""><img src="/img/logo.svg" alt="logo" class="logo" /></a>
         <div class="navWrapper">
-          <a href="" class="navigation">Skills</a>
-          <a href="" class="navigation">Portfolio</a>
-          <a href="" class="navigation">Video</a>
-          <a href="" class="navigation">Price</a>
-          <a href="" class="navigation">Contacts</a>
+          <a href="#skills" class="navigation">Skills</a>
+          <a href="#portfolio" class="navigation">Portfolio</a>
+          <a href="#video" class="navigation">Video</a>
+          <a href="#price" class="navigation">Price</a>
+          <a href="#contacts" class="navigation">Contacts</a>
           <div class="translateWrapper">
             <a href="" class="translateOn">en</a>
             <p>/</p>
@@ -35,6 +48,7 @@
     </header>
     <main>
       <div class="skills">
+        <a name="skills"></a>
         <div class="sectionTitleWrapper">
           <div class="sectionTitleSkills">
             <div class="sectionTitleLine"></div>
@@ -76,10 +90,11 @@
       <!--skills end
         portfolio start-->
       <div class="portfolio">
+        <a name="portfolio"></a>
         <div class="sectionTitleWrapper">
           <div class="sectionTitleSkills">
             <div class="portfolioTitleLine"></div>
-            <h2 class="portfolioTitle">Portfolio</h2>
+            <h1 class="portfolioTitle" id="#portfolio">Portfolio</h1>
             <div class="portfolioTitleLine"></div>
           </div>
         </div>
@@ -103,10 +118,11 @@
       <!--portfolio end
       video start-->
       <div class="video">
+        <a name="video"></a>
         <div class="sectionTitleWrapper">
           <div class="videoTitleWrapper">
             <div class="videoTitleLine"></div>
-            <h2 class="videoTitle">Video</h2>
+            <h1 class="videoTitle">Video</h1>
             <div class="videoTitleLine"></div>
           </div>
         </div>
@@ -115,10 +131,11 @@
       <!--video end
         price start-->
       <div class="price">
+        <a name="price"></a>
         <div class="sectionTitleWrapper">
           <div class="priceTitleWrapper">
             <div class="priceTitleLine"></div>
-            <h2 class="priceTitle">Price</h2>
+            <h1 class="priceTitle">Price</h1>
             <div class="priceTitleLine"></div>
           </div>
         </div>
@@ -164,8 +181,9 @@
       <!--price end
       contacts start-->
       <div class="contacts">
+        <a name="contacts"></a>
         <div class="contactsContainer">
-          <h2>Contact me</h2>
+          <h1 class="contactsTitle">Contact me</h2>
           <input
             type="email"
             class="e-mailAboutYou aboutYou"
@@ -188,11 +206,24 @@
     footer start-->
     <footer>
       <div class="socialData">
-        <img src="/img/c.png" alt="">
+        <img src="/img/c.png" alt="c" class="c" />
         <p>2022</p>
         <a href="" class="githubLink">github</a>
       </div>
-      <div ></div>
+      <div class="socialListWrapper">
+        <a href=""
+          ><img src="/img/Vector (1).svg" alt="instagram" class="socialList"
+        /></a>
+        <a href=""
+          ><img src="/img/Vector (2).svg" alt="facebook" class="socialList"
+        /></a>
+        <a href=""
+          ><img src="/img/Vector (3).svg" alt="twitter" class="socialList"
+        /></a>
+        <a href=""
+          ><img src="/img/Vector (4).svg" alt="pinterest" class="socialList"
+        /></a>
+      </div>
     </footer>
   </body>
 </html>

@@ -1,10 +1,18 @@
+html{
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
 }
+
 body{
   width: 1440px;
   margin: 0 auto;
+  font-family: inter;
+}
+h1{
+  font-family: Merriweather;
 }
 a{
   text-decoration: none;
@@ -66,7 +74,7 @@ color: #BDAE82;
 }
 .heroTitle{
   height: 120px;
-  font-size: 67px;
+  font-size: 61px;
   margin-top: 180px;
 }
 .heroText{
@@ -80,6 +88,7 @@ color: #BDAE82;
   width: 220px;
   background-color: #BDAE82;
   margin-top: 10px;
+  font-size: 20px
 }
 /*header end*/
 main{
@@ -97,7 +106,7 @@ background-color: black;
 .skillsTitle{
 margin: 20px;
   color: #BDAE82;
-  font-size: 47px;
+  font-size: 40px;
 }
 .sectionTitleWrapper{
   display: flex;
@@ -145,9 +154,6 @@ portfolio start*/
   height: 1500px;
   
 }
-.sectionTitleWrapper{
-
-}
 .sectionTitle{
   display: flex;
   justify-content: center;
@@ -157,7 +163,7 @@ portfolio start*/
 .portfolioTitle{
   color: #BDAE82;
   margin: 0 20px;
-  font-size: 47px;
+  font-size: 41px;
 }
 .portfolioTitleLine{
   width: 240px;
@@ -216,7 +222,7 @@ align-items: center;
 }
 .videoTitle{
 color: #BDAE82;
-font-size: 47px;
+font-size: 40px;
 margin: 0 20px;
 }
 .videoTitleLine{
@@ -239,7 +245,7 @@ align-items: center;
 }
 .priceTitle{
 color: #BDAE82;
-font-size: 47px;
+font-size: 40px;
 margin: 0 20px;
 }
 .priceTitleLine{
@@ -297,6 +303,9 @@ contacts start*/
   display: flex;
   justify-content: flex-end;
 }
+.contactsTitle{
+  font-size: 40px;
+}
 .contactsContainer{
   display: flex;
   flex-direction: column;
@@ -340,6 +349,7 @@ footer{
   background-color: black;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   color: #ffffff;
 }
 .socialData{
@@ -350,4 +360,16 @@ footer{
 }
 .githubLink{
   color: #ffffff;
+}
+.c{
+  height: 20px;
+}
+.socialListWrapper{
+  margin-right: 10px;
+}
+.socialList{
+  margin: 12px;
+}
+.socialList:hover{
+  scale: 1.5;
 }
