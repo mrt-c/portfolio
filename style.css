@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 * {
@@ -6,23 +6,25 @@ html{
   padding: 0;
 }
 
-body{
+body {
   width: 1440px;
   margin: 0 auto;
   font-family: inter;
 }
-h1{
+h2 {
   font-family: Merriweather;
 }
-a{
+a {
   text-decoration: none;
+}
+h3 {
+  color: #ffffff;
 }
 /*header start*/
 
 header {
-background-image:url(/img/bg.png);
-height: 910px;
-
+  background-image: url(/img/bg.png);
+  height: 910px;
 }
 .logo {
   height: 50px;
@@ -42,90 +44,91 @@ nav {
   justify-content: space-around;
   width: 570px;
   height: 50px;
-  margin-top:20px ;
+  margin-top: 20px;
 }
-.navigation{
+.navigation {
   color: #ffffff;
   text-decoration: none;
+  margin: 0 15px;
 }
-.navigation:hover{
-color: #BDAE82;
+.navigation:hover {
+  color: #bdae82;
 }
-.translateWrapper{
+.translateWrapper {
   display: flex;
   text-decoration: none;
   color: #ffffff;
 }
-.translateOn{
-  color: #BDAE82;
+.translateOn {
+  color: #bdae82;
   text-decoration: none;
   margin: 0 10px;
 }
-.translateOff{
+.translateOff {
   color: #ffffff;
   text-decoration: none;
   margin: 0 10px;
 }
-.hero{
+.hero {
   color: white;
   height: 330px;
   width: 500px;
   margin: 160px 80px;
 }
-.heroTitle{
-  height: 120px;
+.heroTitle {
+  height: 110px;
   font-size: 61px;
   margin-top: 180px;
 }
-.heroText{
-  height: 120px;
+.heroText {
+  height: 135px;
   width: 470px;
-  font-size: 23px;
-  line-height: 35px
+  font-size: 20px;
+  line-height: 40px;
 }
-.hireMe{
+.hireMe {
   height: 55px;
   width: 220px;
-  background-color: #BDAE82;
+  background-color: #bdae82;
   margin-top: 10px;
-  font-size: 20px
+  font-size: 20px;
 }
 /*header end*/
-main{
-background-color: black;
+main {
+  background-color: black;
 }
 /*skills start*/
-.skills{
+.skills {
   height: 480px;
 }
-.sectionTitleLine{
+.sectionTitleLine {
   height: 2px;
   width: 274px;
-  background-color: #BDAE82;
+  background-color: #bdae82;
 }
-.skillsTitle{
-margin: 20px;
-  color: #BDAE82;
+.skillsTitle {
+  margin: 20px;
+  color: #bdae82;
   font-size: 40px;
 }
-.sectionTitleWrapper{
+.sectionTitleWrapper {
   display: flex;
-justify-content: center;
-height: 180px;
-align-items: flex-end;
+  justify-content: center;
+  height: 180px;
+  align-items: flex-end;
 }
-.sectionTitleSkills{
+.sectionTitleSkills {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80px;
 }
-.skillsItems{
-display: flex;
-justify-content: center;
-margin-top: 40px;
+.skillsItems {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
-.skillsItem{
+.skillsItem {
   width: 320px;
   height: 240px;
   margin: 20px;
@@ -134,217 +137,229 @@ margin-top: 40px;
   align-items: center;
   text-align: center;
 }
-.skillsItemsTitle{
-  color:#BDAE82;
-  font-size: 23px;
+.skillsItemsTitle {
+  font-size: 21px;
   margin: 55px 0 30px;
 }
-.skillsItemsText{
-  color: #BDAE82;
-  font-size: 22px;
+.skillsItemsText {
+  font-size: 19px;
   line-height: 35px;
-  
+  color: #ffffff;
+  width: 280px;
 }
-.skillsImg{
+.skillsImg {
   height: 50px;
 }
 /*skills end
 portfolio start*/
-.portfolio{
+.portfolio {
   height: 1500px;
-  
 }
-.sectionTitle{
+.sectionTitle {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 115px;
 }
-.portfolioTitle{
-  color: #BDAE82;
+.portfolioTitle {
+  color: #bdae82;
   margin: 0 20px;
-  font-size: 41px;
+  font-size: 40px;
 }
-.portfolioTitleLine{
+.portfolioTitleLine {
   width: 240px;
   height: 2px;
-  background-color: #BDAE82;
+  background-color: #bdae82;
 }
-.portfoliobtns{
+.portfoliobtns {
   margin-top: 60px;
   height: 55px;
   display: flex;
   justify-content: center;
 }
-.btnWrapper{
+.btnWrapper {
   width: 216px;
   height: 51px;
-  color: #BDAE82;
-  border: 3px solid #BDAE82;
+  color: #bdae82;
+  border: 3px solid #bdae82;
   margin: 0 2px;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
-.btnWrapper:hover{
-  background-color: #BDAE82;
+.btnWrapper:hover {
+  background-color: #bdae82;
   cursor: pointer;
 }
-.btn{
-  font-size: 24px;
-  color: #BDAE82;
+.btn {
+  font-size: 20spx;
+  color: #bdae82;
 }
-.btnActiv{
-  background-color: #BDAE82;
+.btnActiv {
+  background-color: #bdae82;
   color: black;
 }
-.portfolioImgWrapper{
+.portfolioImgWrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin-top: 47.5px;
 }
-.portfolioImg{
-width: 450px;
-height: 560px;
-margin: 12px;
+.portfolioImg {
+  width: 450px;
+  height: 560px;
+  margin: 12px;
 }
 /*portfolio end
 video start*/
-.video{
+.video {
   height: 945px;
 }
-.videoTitleWrapper{
-display: flex;
-justify-content: center;
-align-items: center;
+.sectionTitleWrapper1 {
+  display: flex;
+  justify-content: center;
+  height: 170px;
+  align-items: flex-end;
 }
-.videoTitle{
-color: #BDAE82;
-font-size: 40px;
-margin: 0 20px;
+.videoTitleWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.videoTitleLine{
+.playHover {
+  top: 3420px;
+  position: absolute;
+}
+.videoTitle {
+  color: #bdae82;
+  font-size: 40px;
+  margin: 0 20px;
+}
+.videoTitleLine {
   width: 271px;
   height: 2px;
-  background-color: #BDAE82;
+  background-color: #bdae82;
 }
-.videoPlayer{
+.videoPlayer {
   margin: 72px 20px;
 }
 /*video end
 price start*/
-.price{
+.price {
   height: 845px;
 }
-.priceTitleWrapper{
-display: flex;
-justify-content: center;
-align-items: center;
+.priceTitleWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.priceTitle{
-color: #BDAE82;
-font-size: 40px;
-margin: 0 20px;
+.priceTitle {
+  color: #bdae82;
+  font-size: 40px;
+  margin: 0 20px;
 }
-.priceTitleLine{
+.priceTitleLine {
   width: 279px;
   height: 2px;
-  background-color: #BDAE82;
+  background-color: #bdae82;
 }
-.priceItemWrapper{
+.priceItemWrapper {
   display: flex;
   justify-content: center;
   margin-top: 55px;
 }
-.priceItem{
+.priceItem {
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 505px;
   width: 450px;
   margin: 20px;
-  border: 3px #BDAE82 solid;
+  border: 3px #bdae82 solid;
   color: #ffffff;
 }
-.priceItemTitle{
-  margin-top: 43px;
-  font-size: 35px;
+.priceItemTitle {
+  margin-top: 45px;
+  font-size: 29px;
+  font-family: Merriweather;
 }
-.priceItemPrice{
-  margin-top:40px;
-  font-size: 30px;
-  color: #BDAE82;
+.priceItemPrice {
+  margin-top: 40px;
+  font-size: 25px;
+  color: #bdae82;
+  height: 39px;
 }
-.priceItemFrameWrapper{
-  margin-top:20px ;
+.priceItemFrameWrapper {
+  margin-top: 20px;
   text-align: center;
 }
-.priceItemFrame{
+.priceItemFrame {
   margin-top: 10px;
-  font-size: 22px;
+  font-size: 18px;
+  height: 25px;
 }
-.priceItemButton{
+.priceItemButton {
   height: 55px;
   width: 220px;
-  background-color: #BDAE82;
+  background-color: #bdae82;
   margin-top: 45px;
+  font-size: 20px;
 }
-button:hover{
+button:hover {
   background-color: #948865;
   cursor: pointer;
 }
 /*price end
 contacts start*/
-.contacts{
+.contacts {
   background-image: url(/img/contacts.jpg);
   height: 700px;
   display: flex;
   justify-content: flex-end;
 }
-.contactsTitle{
+.contactsTitle {
   font-size: 40px;
 }
-.contactsContainer{
+.contactsContainer {
   display: flex;
   flex-direction: column;
-  color: #BDAE82;
+  color: #bdae82;
   margin-top: 75px;
-    font-size: 30px;
+  font-size: 30px;
 }
-.aboutYou{
+.aboutYou {
   width: 450px;
   background-color: rgba(0, 0, 0, 0.5);
-  border: #BDAE82 2px solid;
+  border: #bdae82 2px solid;
   margin-right: 18px;
-  color: #BDAE82;
+  color: #bdae82;
 }
-.aboutYou::placeholder{
-  color: #BDAE82;
+.aboutYou::placeholder {
+  color: #bdae82;
   font-size: 20px;
 }
-.e-mailAboutYou{
+.e-mailAboutYou {
   height: 50px;
   margin-top: 50px;
 }
-.phoneAboutYou{
+.phoneAboutYou {
   height: 50px;
   margin: 20px 0;
 }
-.messageAboutYou{
+.messageAboutYou {
   height: 100px;
 }
-.sendMessage{
+.sendMessage {
   height: 55px;
   width: 220px;
-  background-color: #BDAE82;
+  background-color: #bdae82;
   margin-top: 20px;
-  font-size: 20px
+  font-size: 20px;
 }
 /*contact end
 footer start*/
-footer{
+footer {
   height: 150px;
   background-color: black;
   display: flex;
@@ -352,24 +367,24 @@ footer{
   justify-content: space-between;
   color: #ffffff;
 }
-.socialData{
+.socialData {
   width: 200px;
   display: flex;
   justify-content: space-around;
   font-size: 22px;
 }
-.githubLink{
+.githubLink {
   color: #ffffff;
 }
-.c{
+.c {
   height: 20px;
 }
-.socialListWrapper{
+.socialListWrapper {
   margin-right: 10px;
 }
-.socialList{
+.socialList {
   margin: 12px;
 }
-.socialList:hover{
+.socialList:hover {
   scale: 1.5;
 }
